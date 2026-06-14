@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://harisali.dev/sitemap.xml
