@@ -7,7 +7,7 @@ const CONTACT_CARDS = [
     icon: Mail,
     label: 'Email',
     value: 'Direct and preferred',
-    href: 'mailto:harisali@example.com',
+    href: SITE.email,
     accent: 'border-amber-500/25 hover:border-amber-500/50 hover:bg-amber-500/5',
     iconBg: 'bg-amber-600/15 border-amber-500/20 text-amber-400',
     cta: 'Send email',
@@ -72,7 +72,7 @@ export default function Contact() {
             className={`text-[#8fa3c0] text-base sm:text-lg leading-relaxed mb-8 transition-all duration-500 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
             style={{ transitionDelay: '150ms' }}
           >
-            I'm actively looking for my next role across Germany, Luxembourg, and the Netherlands. I'm also available for freelance and contract engagements in BI, reporting automation, and ERP reconciliation. Direct outreach works best — no recruiters needed.
+            I'm open to FP&A, BI, commercial analytics, reporting automation, and ERP reconciliation roles or projects. Direct outreach works best — no recruiters needed.
           </p>
 
           {/* Location badges */}

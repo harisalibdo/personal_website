@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
-import { LayoutDashboard, Zap, ShieldCheck, ArrowRight } from 'lucide-react';
+import { LayoutDashboard, Zap, ShieldCheck, ArrowRight, type LucideIcon } from 'lucide-react';
 import { SERVICES, SITE } from '../../content/site';
 
-const ICON_MAP: Record<string, React.ComponentType<{ size?: number; className?: string }>> = {
+const ICON_MAP: Record<string, LucideIcon> = {
   LayoutDashboard, Zap, ShieldCheck,
 };
 

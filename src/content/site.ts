@@ -3,8 +3,8 @@ export const SITE = {
   tagline: 'Data & Business Analytics | Finance Expertise | Berlin',
   headline: 'Data, business & finance analytics — automated with AI.',
   subhead:
-    'ACCA-qualified Data & Business Analyst in Berlin, combining deep finance domain expertise with hands-on BI, SQL/Python analytics, and AI-powered automation workflows that replace repetitive reporting, reconciliation, and data-prep tasks.',
-  email: 'mailto:harisali@example.com',
+    'ACCA-qualified Data & Business Analyst in Berlin, combining deep finance domain expertise with hands-on BI, SQL/Python analytics, and AI-powered automation workflows that improve reporting speed, accuracy, and decision clarity.',
+  email: 'mailto:Harisalibdo@gmail.com',
   linkedin: 'https://www.linkedin.com/in/harisaliee/',
   upwork: 'https://www.upwork.com/freelancers/harisali',
   cv: '/Haris-Ali-CV.pdf',
@@ -13,10 +13,10 @@ export const SITE = {
 };
 
 export const PROOF = [
-  { value: '70%+', label: 'Reporting Time Reduced', sublabel: 'FP&A pipeline rebuild at SquareTrade' },
-  { value: '15 hrs+', label: 'Per Week Automated', sublabel: 'Manual processing eliminated' },
-  { value: '3,621', label: 'Duplicate Records Caught', sublabel: 'Before reporting distortion' },
-  { value: '176×', label: 'Sample Gap Identified', sublabel: 'CX pilot stopped before wasted budget' },
+  { value: '70%+', label: 'Reporting Time Reduced', sublabel: 'Workflow automation and AI-assisted reporting systems' },
+  { value: '15+ hrs', label: 'Manual Work Automated', sublabel: 'Per reporting cycle through reusable Python workflows' },
+  { value: '9+', label: 'European Markets Supported', sublabel: 'Multi-partner warranty reporting and analysis' },
+  { value: '7+ yrs', label: 'Finance-to-Analytics Experience', sublabel: 'Audit, reporting, FP&A, BI, and automation' },
 ];
 
 export const CAPABILITIES = [
@@ -122,7 +122,7 @@ export const EXPERIENCE = [
       'Rebuilt FP&A trend-monitoring pipeline from zero documentation, cutting reporting time by 70%+ and eliminating 15+ hours of weekly manual processing.',
       'Built partner profitability P&L dashboards covering 9+ European partners, giving leadership their first consolidated view of margin by partner.',
       'Detected 3,621 duplicate claim records distorting margin reports; designed reconciliation between NetSuite, PostgreSQL, and Microsoft Fabric.',
-      'Identified a 176× sample gap in a CX pilot, stopping the experiment before budget was wasted on statistically meaningless results.',
+      'Applied statistical validation to pilot designs, helping teams understand whether proposed tests could produce decision-ready evidence.',
       'Developed AI-assisted commentary workflow using local LLM to automate narrative generation on structured P&L outputs.',
     ],
   },

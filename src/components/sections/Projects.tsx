@@ -45,7 +45,7 @@ export default function Projects() {
             className={`text-[#8fa3c0] text-sm max-w-xs transition-all duration-500 ${visible ? 'opacity-100' : 'opacity-0'}`}
             style={{ transitionDelay: '200ms' }}
           >
-            Four projects that show the intersection of finance logic, data engineering, and analytics rigor.
+            Three case studies that show the intersection of finance logic, data engineering, and analytics rigor.
           </p>
         </div>
 

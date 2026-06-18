@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
-import { Database, TrendingUp, Cpu, Activity, Wrench } from 'lucide-react';
+import { Database, TrendingUp, Cpu, Activity, Wrench, type LucideIcon } from 'lucide-react';
 import { SKILL_GROUPS, CREDENTIALS } from '../../content/site';
 
-const ICON_MAP: Record<string, React.ComponentType<{ size?: number; className?: string }>> = {
+const ICON_MAP: Record<string, LucideIcon> = {
   Database, TrendingUp, Cpu, Activity, Wrench,
 };
 

@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
-import { BarChart3, Calculator, Bot, FlaskConical, GitMerge } from 'lucide-react';
+import { BarChart3, Calculator, Bot, FlaskConical, GitMerge, type LucideIcon } from 'lucide-react';
 import { CAPABILITIES } from '../../content/site';
 
-const ICON_MAP: Record<string, React.ComponentType<{ size?: number; className?: string }>> = {
+const ICON_MAP: Record<string, LucideIcon> = {
   BarChart3, Calculator, Bot, FlaskConical, GitMerge,
 };
 
@@ -66,10 +66,10 @@ export default function About() {
                 I started in public accounting — audit, controls, evidence. That foundation taught me something most analytics people skip: that numbers only matter if they're trustworthy. It shaped how I approach every data problem I've worked on since.
               </p>
               <p>
-                From there, I moved through operational finance, risk advisory, and global reporting before landing in commercial analytics at SquareTrade Europe. That's where the profile people find interesting emerged: I was writing Python pipelines in the morning, reviewing partner P&L with Finance in the afternoon, and investigating a 3,621-record data integrity issue before the reporting cycle closed.
+                From there, I moved through operational finance, risk advisory, and global reporting before landing in commercial analytics at SquareTrade Europe. That's where the profile people find interesting emerged: I was writing Python pipelines in the morning, reviewing partner P&L with Finance in the afternoon, and building reconciliation logic that made reporting outputs easier to trust.
               </p>
               <p>
-                Now I build analytics and automation systems where the finance logic, data pipeline, and business outcome are all connected. I'm based in Berlin, actively pursuing FP&A, BI, and commercial analytics roles across Germany and the EU, and open to projects where data quality and business clarity both matter.
+                Now I build analytics and automation systems where the finance logic, data pipeline, and business outcome are all connected. I'm based in Berlin and open to FP&A, BI, commercial analytics, and automation roles or projects where data quality and business clarity both matter.
               </p>
             </div>
           </div>

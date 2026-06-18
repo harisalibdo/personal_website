@@ -42,7 +42,7 @@ export default function Experience() {
           className={`text-[#8fa3c0] max-w-xl mb-14 leading-relaxed transition-all duration-500 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
           style={{ transitionDelay: '150ms' }}
         >
-          A 10-year career that started in audit, evolved through finance operations and global reporting, and landed in commercial analytics with AI automation.
+          A 7+ year career that started in audit, evolved through finance operations and global reporting, and landed in commercial analytics with AI automation.
         </p>
 
         {/* Timeline */}

@@ -13,7 +13,7 @@ const CATEGORIES = [
 const CREDENTIALS = [
   { icon: GraduationCap, label: 'MSc Data Analytics' },
   { icon: Briefcase, label: 'ACCA Member' },
-  { icon: Briefcase, label: '5+ Years Experience' },
+  { icon: Briefcase, label: '7+ Years Experience' },
 ];
 
 export default function Hero() {
@@ -227,11 +227,11 @@ export default function Hero() {
                 <div className="flex flex-col gap-2">
                   <div className="flex items-center gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-indigo-400" aria-hidden="true" />
-                    <span className="text-xs font-medium text-[#8fa3c0]">4 case studies</span>
+                    <span className="text-xs font-medium text-[#8fa3c0]">3 case studies</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" aria-hidden="true" />
-                    <span className="text-xs font-medium text-[#8fa3c0]">15 hrs/month automated</span>
+                    <span className="text-xs font-medium text-[#8fa3c0]">15+ hrs/cycle automated</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-amber-400" aria-hidden="true" />
